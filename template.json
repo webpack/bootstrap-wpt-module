@@ -1,0 +1,87 @@
+{
+	"name": "bootstrap",
+	"version": "2.1.1",
+	"dependencies": {
+		"jquery": "1.8.1"
+	},
+	"dependencyPaths": {
+		"jquery": "https://raw.github.com/webpack/jquery-wpt-module/master"
+	},
+	"files": {
+		"app/bootstrap.config.js": 1,
+		"app/bootstrap.config.less": 1
+	},
+	"moduleFiles": {
+		"index.js": true,
+		"webpackOptions.js": true,
+		"bootstrap-scripts.loader.js": true,
+		"bootstrap-styles.loader.js": true,
+		"img": {
+			"directory": true,
+			"than": {
+				"glyphicons-halflings.png":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/img/glyphicons-halflings.png"},
+				"glyphicons-halflings-white.png":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/img/glyphicons-halflings-white.png"}
+			}
+		},
+		"affix.js":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-affix.js"},
+		"alert.js":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-alert.js"},
+		"button.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-button.js"},
+		"carousel.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-carousel.js"},
+		"collapse.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-collapse.js"},
+		"dropdown.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-dropdown.js"},
+		"modal.js":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-modal.js"},
+		"popover.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-popover.js"},
+		"scrollspy.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-scrollspy.js"},
+		"tab.js":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-tab.js"},
+		"tooltip.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-tooltip.js"},
+		"transition.js":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-transition.js"},
+		"typeahead.js":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/js/bootstrap-typeahead.js"},
+		"less": {
+			"directory": true,
+			"than": {
+				"accordion.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/accordion.less"},
+				"alerts.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/alerts.less"},
+				"bootstrap.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/bootstrap.less"},
+				"breadcrumbs.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/breadcrumbs.less"},
+				"button-groups.less":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/button-groups.less"},
+				"buttons.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/buttons.less"},
+				"carousel.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/carousel.less"},
+				"close.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/close.less"},
+				"code.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/code.less"},
+				"component-animations.less":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/component-animations.less"},
+				"dropdowns.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/dropdowns.less"},
+				"forms.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/forms.less"},
+				"grid.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/grid.less"},
+				"hero-unit.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/hero-unit.less"},
+				"labels-badges.less":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/labels-badges.less"},
+				"layouts.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/layouts.less"},
+				"mixins.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/mixins.less"},
+				"modals.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/modals.less"},
+				"navbar.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/navbar.less"},
+				"navs.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/navs.less"},
+				"pager.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/pager.less"},
+				"pagination.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/pagination.less"},
+				"popovers.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/popovers.less"},
+				"progress-bars.less":			{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/progress-bars.less"},
+				"reset.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/reset.less"},
+				"responsive-1200px-min.less":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive-1200px-min.less"},
+				"responsive-767px-max.less":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive-767px-max.less"},
+				"responsive-768px-979px.less":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive-768px-979px.less"},
+				"responsive-navbar.less":		{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive-navbar.less"},
+				"responsive-utilities.less":	{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive-utilities.less"},
+				"responsive.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/responsive.less"},
+				"scaffolding.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/scaffolding.less"},
+				"sprites.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/sprites.less"},
+				"tables.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/tables.less"},
+				"thumbnails.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/thumbnails.less"},
+				"tooltip.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/tooltip.less"},
+				"type.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/type.less"},
+				"utilities.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/utilities.less"},
+				"variables.less":				{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/variables.less"},
+				"wells.less":					{ "overwrite": true, "file": "https://raw.github.com/twitter/bootstrap/v2.1.1/less/wells.less"}
+			}
+		}
+	}
+}
+
+
