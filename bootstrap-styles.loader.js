@@ -20,6 +20,7 @@ var styles = [
 	"breadcrumbs",
 	"pagination",
 	"pager",
+	"media",
 	"modals",
 	"tooltip",
 	"popovers",

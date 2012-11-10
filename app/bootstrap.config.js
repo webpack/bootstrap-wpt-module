@@ -37,6 +37,7 @@ module.exports = {
 		"labels-badges":			true,
 		layouts:					true,
 		mixins:						true,
+		media:						true,
 		modals:						true,
 		navbar:						true,
 		navs:						true,
